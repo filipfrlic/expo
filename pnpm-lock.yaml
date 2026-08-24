@@ -189,6 +189,9 @@ importers:
       expo-router:
         specifier: workspace:*
         version: link:../../packages/expo-router
+      expo-secure-store:
+        specifier: workspace:*
+        version: link:../../packages/expo-secure-store
       expo-splash-screen:
         specifier: workspace:*
         version: link:../../packages/expo-splash-screen

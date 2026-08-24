@@ -4,6 +4,7 @@
 
 ### 🛠 Breaking changes
 
+- The `freezeOnBlur` screen option is disabled and screens are never frozen when blurred. ([#49163](https://github.com/expo/expo/pull/49163) by [@Ubax](https://github.com/Ubax))
 - Remove the experimental web modal implementation. See the [web modals guide](https://docs.expo.dev/router/advanced/web-modals/). ([#49204](https://github.com/expo/expo/pull/49204) by [@Ubax](https://github.com/Ubax))
 - Remove `NavigationIndependentTree` and `useNavigationIndependentTree` from `expo-router/react-navigation`. To embed an isolated navigation tree in a screen, use `@react-navigation/native`. ([#49172](https://github.com/expo/expo/pull/49172) by [@Ubax](https://github.com/Ubax))
 - Remove the deprecated `Link` and `useLinkProps` exports from `expo-router/react-navigation`. Use `Link` from `expo-router` with an `href` instead. ([#48895](https://github.com/expo/expo/pull/48895) by [@Ubax](https://github.com/Ubax))
@@ -34,6 +35,8 @@
 
 ### 🎉 New features
 
+- Add unstable `NavigationAwareActivity` component. ([#49164](https://github.com/expo/expo/pull/49164) by [@Ubax](https://github.com/Ubax))
+- Add screen error boundaries ([#49174](https://github.com/expo/expo/pull/49174) by [@Ubax](https://github.com/Ubax))
 - Export `NativeStackView` for custom navigator implementations on web. ([#49204](https://github.com/expo/expo/pull/49204) by [@Ubax](https://github.com/Ubax))
 - Add global registry for routers. ([#48707](https://github.com/expo/expo/pull/48707) by [@Ubax](https://github.com/Ubax))
 - Improve withLayoutContext types ([#48356](https://github.com/expo/expo/pull/48356) by [@Ubax](https://github.com/Ubax))
@@ -66,6 +69,7 @@
 
 ### 💡 Others
 
+- Move Expo Router store values into React context. ([#49218](https://github.com/expo/expo/pull/49218) by [@Ubax](https://github.com/Ubax))
 - Remove the ignored `linking.enabled` option. ([#49103](https://github.com/expo/expo/pull/49103) by [@Ubax](https://github.com/Ubax))
 - Render only the focused tab route during the first render. ([#48618](https://github.com/expo/expo/pull/48618) by [@Ubax](https://github.com/Ubax))
 - Order JS Tabs, NativeTabs, headless tabs and Drawer by `routeNames` order ([#48374](https://github.com/expo/expo/pull/48374) by [@Ubax](https://github.com/Ubax))

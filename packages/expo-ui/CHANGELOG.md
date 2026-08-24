@@ -10,6 +10,7 @@
 ### 🎉 New features
 
 - [iOS] Added `'default'` as a value for every edge of the `padding` modifier, so a single edge can use the system default padding while the other edges use explicit lengths. ([#48903](https://github.com/expo/expo/pull/48903) by [@Den1Marshall](https://github.com/Den1Marshall))
+- [iOS] Added the `Background` component, which draws any view behind another view with an optional `alignment`, matching SwiftUI's `background(alignment:content:)`. ([#48904](https://github.com/expo/expo/pull/48904) by [@Den1Marshall](https://github.com/Den1Marshall))
 - [android] Added `maskClip` modifier, exposing Compose's `CarouselItemScope.maskClip` so carousel items keep their shape while the carousel masks them. ([#48852](https://github.com/expo/expo/pull/48852) by [@SchroederNathan](https://github.com/SchroederNathan))
 - [iOS] Added `presentationBackground` SwiftUI modifier and applied it in `community/bottom-sheet`. ([#46285](https://github.com/expo/expo/pull/46285) by [@duyanhv](https://github.com/duyanhv))
 - [iOS] Added `menuStyle` and `menuIndicator` SwiftUI modifiers, which together with `buttonStyle('plain')` keep a `Menu`'s custom label as its entire trigger on Mac Catalyst. ([#48447](https://github.com/expo/expo/issues/48447) by [@cvburgess](https://github.com/cvburgess)) ([#48448](https://github.com/expo/expo/pull/48448) by [@cvburgess](https://github.com/cvburgess))
@@ -22,6 +23,7 @@
 - [android] Add `shouldDismissOnBackPress` prop to the universal `BottomSheet` component, forwarding it to `ModalBottomSheet` via `properties.shouldDismissOnBackPress`. When false, the back press does not dismiss the sheet (and the press still does not reach BackHandler). ([#48987](https://github.com/expo/expo/pull/48987) by [@webdevsamran](https://github.com/webdevsamran))
 - [universal] Added a `contentPadding` prop to `BottomSheet`, so sheet content can reach the sheet's edges instead of always sitting inside a hardcoded 16-unit inset. ([#48902](https://github.com/expo/expo/issues/48902) by [@kilarsky](https://github.com/kilarsky))
 - [android] Add `shouldDismissOnClickOutside` and `scrimColor` props to the universal `BottomSheet` component, forwarding them to `ModalBottomSheet` via `properties.shouldDismissOnClickOutside` and `scrimColor`. ([#48986](https://github.com/expo/expo/pull/48986) by [@webdevsamran](https://github.com/webdevsamran))
+- [android] Added the `amplitude`, `wavelength` and `waveSpeed` props to `LinearWavyProgressIndicator` and `CircularWavyProgressIndicator`, so the Material 3 wave can be configured instead of always using the Compose defaults. (by [@felipe-software](https://github.com/felipe-software))
 
 ### 🐛 Bug fixes
 
