@@ -326,7 +326,6 @@ function Card({
     };
 
     // We only want to clean up the animation on unmount
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const timeoutRef = React.useRef<ReturnType<typeof setTimeout>>(undefined);

@@ -2363,7 +2363,7 @@ PODS:
     - ReactNativeDependencies
     - RNWorklets
     - Yoga
-  - RNScreens (4.26.0):
+  - RNScreens (4.27.0):
     - hermes-engine
     - RCTRequired
     - RCTTypeSafety
@@ -2385,9 +2385,9 @@ PODS:
     - ReactCodegen
     - ReactCommon/turbomodule/core
     - ReactNativeDependencies
-    - RNScreens/common (= 4.26.0)
+    - RNScreens/common (= 4.27.0)
     - Yoga
-  - RNScreens/common (4.26.0):
+  - RNScreens/common (4.27.0):
     - hermes-engine
     - RCTRequired
     - RCTTypeSafety
@@ -2638,7 +2638,7 @@ DEPENDENCIES:
   - "RNCMaskedView (from `../../../node_modules/.pnpm/@react-native-masked-view+masked-view@0.3.2_react-native@0.87.0_@babel+core@7.29.7_@rea_a1e82e38f877e7117a6b20774e9c29c9/node_modules/@react-native-masked-view/masked-view`)"
   - "RNGestureHandler (from `../../../node_modules/.pnpm/react-native-gesture-handler@3.1.0_react-native@0.87.0_@babel+core@7.29.7_@react-native_9c02bf2594a9566bf596ca4c87b0ae4d/node_modules/react-native-gesture-handler`)"
   - "RNReanimated (from `../../../node_modules/.pnpm/react-native-reanimated@4.5.1_patch_hash=e2626de5a7914e5e42159ee39602e6b9ff62cbfb4ba181_5659c4bd0bae32fecb25484e6cb26fdc/node_modules/react-native-reanimated`)"
-  - "RNScreens (from `../../../node_modules/.pnpm/react-native-screens@4.26.0_react-native@0.87.0_@babel+core@7.29.7_@react-native+metro-_a14911cf41b7ca6ce6fa7abf97ad6919/node_modules/react-native-screens`)"
+  - "RNScreens (from `../../../node_modules/.pnpm/react-native-screens@4.27.0_react-native@0.87.0_@babel+core@7.29.7_@react-native+metro-_77e5ee3706757fc92fe1dd711297e742/node_modules/react-native-screens`)"
   - "RNWorklets (from `../../../node_modules/.pnpm/react-native-worklets@0.10.1_patch_hash=1ce9efd8fe9b3208d105e0b25c99bd61eaf54b6acf181f6_5ba29ad4772beb5adbb9674c74ed46e6/node_modules/react-native-worklets`)"
   - SocketRocket (from `build/rndeps-facades/SocketRocket`)
   - UMAppLoader (from `../../../packages/unimodules-app-loader/ios`)
@@ -2903,7 +2903,7 @@ EXTERNAL SOURCES:
   RNReanimated:
     :path: "../../../node_modules/.pnpm/react-native-reanimated@4.5.1_patch_hash=e2626de5a7914e5e42159ee39602e6b9ff62cbfb4ba181_5659c4bd0bae32fecb25484e6cb26fdc/node_modules/react-native-reanimated"
   RNScreens:
-    :path: "../../../node_modules/.pnpm/react-native-screens@4.26.0_react-native@0.87.0_@babel+core@7.29.7_@react-native+metro-_a14911cf41b7ca6ce6fa7abf97ad6919/node_modules/react-native-screens"
+    :path: "../../../node_modules/.pnpm/react-native-screens@4.27.0_react-native@0.87.0_@babel+core@7.29.7_@react-native+metro-_77e5ee3706757fc92fe1dd711297e742/node_modules/react-native-screens"
   RNWorklets:
     :path: "../../../node_modules/.pnpm/react-native-worklets@0.10.1_patch_hash=1ce9efd8fe9b3208d105e0b25c99bd61eaf54b6acf181f6_5ba29ad4772beb5adbb9674c74ed46e6/node_modules/react-native-worklets"
   SocketRocket:
@@ -2939,7 +2939,7 @@ SPEC CHECKSUMS:
   ExpoRouter: 224087330cc8f5a39700e6f4d7a55f55ecb2f90d
   ExpoTaskManager: d52427f67bf8f00fa56d52f9603919049c67cfc5
   EXStructuredHeaders: 1423c3602a30eb078e03b63b251ef912267dd4c0
-  EXUpdates: 77390b041d3501e18e8ed0ca413c77b8644aa4d5
+  EXUpdates: 8a4b49a5c5e23a82ed2a9af5ab152199016fcde6
   EXUpdatesInterface: 92d2aa5194b6fb93ca8ab749db75665cb28b2e60
   fast_float: 7c925d1cebf8328d4018d061f49377e9f887e3b4
   FBLazyVector: 732df79fea96f10cc14477969cea05707026d2fd
@@ -3031,7 +3031,7 @@ SPEC CHECKSUMS:
   RNCMaskedView: d4884d6b3b256bd1830a211db3d5f551def82e36
   RNGestureHandler: f09eca0b47053142f7543f5c71d183f215ba5d81
   RNReanimated: 6217e4f6a96d9cc50a6b063053f66a5c4110cb01
-  RNScreens: 6a5899ce324f44711d04542fa3964828b63e1cad
+  RNScreens: a2103f13fa603c405092daf70ca4eb3a6291fd6d
   RNWorklets: 8e35476ef012fa1036e145c6fcd1af6c85c41d56
   SDWebImage: e9fc87c1aab89a8ab1bbd74eba378c6f53be8abf
   SDWebImageAVIFCoder: afe194a084e851f70228e4be35ef651df0fc5c57
